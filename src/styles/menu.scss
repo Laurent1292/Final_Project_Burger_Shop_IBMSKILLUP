@@ -1,0 +1,136 @@
+@import "colors";
+
+#menu {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding: 4rem;
+
+  > h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.card {
+    border-radius: 20px 20px 0 0;
+    background-color: $reddark ;
+    display: flex;
+    align-items: center;
+}
+.card-body {
+    > h5 {
+      font-size: 1.8rem;
+    }
+    > p {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 1rem 0;
+    }
+  }
+
+//   > main {
+//     padding: 2rem;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     > img {
+//       height: 15rem;
+//       width: 100%;
+//       object-fit: contain;
+//     }
+
+//     > h5 {
+//       font-size: 1.8rem;
+//     }
+//     > p {
+//       text-transform: uppercase;
+//       letter-spacing: 2px;
+//       padding: 1rem 0;
+//     }
+
+//     > button {
+//       background-color: $red;
+//       color: white;
+//       border: none;
+//       padding: 1rem 2rem;
+//       width: 100%;
+//       border-radius: 10px;
+//       cursor: pointer;
+
+//       &:hover {
+//         background-color: $reddark;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 600px) {
+//   #menu > div {
+//     flex-direction: column;
+//   }
+
+//   .menuCard {
+//     width: 100%;
+//     margin: 1rem 0;
+//   }
+// }
+
+.container {
+  margin-bottom: 100px;
+}
+.card {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.card img {
+  height: 15rem;
+  width: 100%;
+  object-fit: contain;
+  display: inline-block;
+  margin: 0 auto;
+}
+.menu {
+  margin-top: 50px;
+}
+.menu > h1 {
+  font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card img {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-body button {
+        background-color: $reddark !important;
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.menuCard {
+  border-radius: 20px 20px 0 0;
+  background-color: $reddark;
+  display: flex;
+  color: white;
+  height: 4rem;
+}
